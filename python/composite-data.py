@@ -14,7 +14,7 @@ myVehicle = {
 for key, value in myVehicle.items():
     print("{} : {}".format(key,value))
 myInventoryList = []
-with open('car_fleet.csv') as csvFile:
+with open("C:\Users\Miguel Hurtado\Desktop\Remote_folder\git_bash\python\car_fleet.csv", 'r') as csvFile:
 	csvReader = csv.reader(csvFile, delimiter=',')  
 	lineCount = 0  
 	for row in csvReader:
